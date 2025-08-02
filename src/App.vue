@@ -1,8 +1,10 @@
 <script setup>
 import BarChart from './components/BarChart.vue';
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
+  <TheHeader></TheHeader>
   <div>
     <p class="text-xl underline" >tailwind test</p>
    
@@ -11,16 +13,5 @@ import BarChart from './components/BarChart.vue';
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
