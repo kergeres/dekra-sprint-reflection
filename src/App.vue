@@ -1,6 +1,5 @@
 <script setup>
 import BarChart from './components/BarChart.vue';
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
